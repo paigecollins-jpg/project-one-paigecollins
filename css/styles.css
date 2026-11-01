@@ -1,7 +1,7 @@
 /* basic page style */
 body {
     margin: 0;
-    background-color: #d085ff;
+    background-color: #fffdf7;
     color: #191919;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height:1.6;
@@ -15,7 +15,7 @@ header {
     flex-wrap: wrap;
     gap: 15px;
     padding: 20px;
-    background-color: #fffdf7;
+    background-color: #0abaff;
     border-bottom: 2px solid #191919;
 }
 
