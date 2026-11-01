@@ -3,8 +3,8 @@ body {
     margin: 0;
     background-color: #f3eddf;
     color: #191919;
-    font-family:'Courier New', Courier, monospace
-    line-height: 1.6;
+    font-family:'Courier New', Courier, monospace;
+    line-height:1.6;
 }
 
 /* header & pg links */
