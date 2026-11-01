@@ -1,9 +1,140 @@
-:root {
-    --paper: #f2ecdf;
-    --paper-dark: #ddd2bf;
-    --ink: #171714;
-    --red: #e53b27;
-    --blue: #243f86;
-    --yellow: #e7c65b;
-    --line: rgba(23, 23, 20, 0.28);
+/* basic page style */
+body {
+    margin: 0;
+    background-color: #f3eddf;
+    color: #191919;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+}
+
+/* header & pg links */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    background-color: #fffdf7;
+    border-bottom: 2px solid #191919;
+}
+
+.logo {
+    color: #191919;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a {
+    margin-right: 15px;
+    color: #191919;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ef4b35; 
+    text-decoration: underline;
+}
+
+/* main content & headings */
+main {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+h1 {
+    color: #ef4b35;
+    font-size: 48px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #244f8f;
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+h3 {
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+p {
+    max-width: 700px;
+}
+
+/* sections inspired by paper & zines */
+section {
+    margin-bottom: 40px;
+}
+
+article {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fffdf7;
+    border: 2px solid #191919;
+}
+
+article a {
+    color: #244f8f;
+    font-weight: bold;
+}
+
+/* images & collage pieces */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #191919;
+}
+
+mark {
+    padding: 2px 5px;
+    background-color: #f5d34f;
+}
+
+/* footer */
+footer {
+    padding: 20px;
+    background-color: #191919;
+    color: #fffdf7;
+    text-align: center;
+}
+
+/* keyboard accessibility */
+a:focus {
+    outline: 3px solid #244f8f;
+    outline-offset: 3px;
+}
+
+/* small screen layout */
+@media (max-width: 600px) {
+    header {
+        display: block;
+    }
+
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+}
+
+main {
+    padding: 15px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 25px;
+ }
 }
