@@ -23,7 +23,7 @@ header {
     color: #191919;
     font-size: 24px;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 nav a {
@@ -54,7 +54,7 @@ h1 {
 
 h2 {
     color: #065879;
-    font-size: 30px;
+    font-size: 50px;
     line-height: 1.1;
 }
 
