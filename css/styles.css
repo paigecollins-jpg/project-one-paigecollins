@@ -1,7 +1,7 @@
 /* basic page style */
 body {
     margin: 0;
-    background-color: #f3eddf;
+    background-color: #fffdf7;
     color: #191919;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height:1.6;
@@ -21,7 +21,7 @@ header {
 
 .logo {
     color: #191919;
-    font-size: 40px;
+    font-size: 24px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -46,14 +46,14 @@ main {
 }
 
 h1 {
-    color: #ef4b35;
-    font-size: 48px;
+    color: #a4005a;
+    font-size: 70px;
     line-height: 1;
     text-transform: uppercase;
 }
 
 h2 {
-    color: #244f8f;
+    color: #065879;
     font-size: 30px;
     line-height: 1.1;
 }
@@ -80,7 +80,7 @@ article {
 }
 
 article a {
-    color: #244f8f;
+    color: #065879;
     font-weight: bold;
 }
 
@@ -106,7 +106,7 @@ footer {
 
 /* keyboard accessibility */
 a:focus {
-    outline: 3px solid #244f8f;
+    outline: 3px solid #065879;
     outline-offset: 3px;
 }
 
