@@ -1,0 +1,9 @@
+:root {
+    --paper: #f2ecdf;
+    --paper-dark: #ddd2bf;
+    --ink: #171714;
+    --red: #e53b27;
+    --blue: #243f86;
+    --yellow: #e7c65b;
+    --line: rgba(23, 23, 20, 0.28);
+}
