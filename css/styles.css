@@ -34,8 +34,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #ef4b35; 
-    text-decoration: underline;
+    color: #35efe9; 
+    text-decoration: wavy;
 }
 
 /* main content & headings */
