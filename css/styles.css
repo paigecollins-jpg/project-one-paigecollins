@@ -80,33 +80,24 @@ article {
 }
 
 /* images & collage pieces */
-.image-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
+.image-box {
+    border: 3px solid black;
+    padding: 10px;
+    width: 550px;
+    text-align: center;
 }
 
-.image-container img {
+.image-box img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
-.image-container p {
+.image-box a {
+    display: block;
     margin-top: 10px;
-    text-align: center;
-    font-size: 14px;
 }
 
-mark {
-    padding: 2px 5px;
-    background-color: #f5d34f;
-}
-
-article a {
-    color: #065879;
-    font-weight: bold;
-}
 
 /* footer */
 footer {
