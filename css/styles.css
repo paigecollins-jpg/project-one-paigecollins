@@ -1,6 +1,7 @@
 /* basic page style */
 body {
     margin: 0;
+    padding: 0;
     background-color: #fffdf7;
     color: #191919;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
