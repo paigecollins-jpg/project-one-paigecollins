@@ -82,6 +82,7 @@ article {
 /* images & collage pieces */
 .image-box {
     text-align: center;
+    border: 2px solid #191919
 }
 
 .image-box img {
