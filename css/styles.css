@@ -79,11 +79,6 @@ article {
     border: 2px solid #191919;
 }
 
-article a {
-    color: #065879;
-    font-weight: bold;
-}
-
 /* images & collage pieces */
 .image-container {
     display: flex;
@@ -106,6 +101,11 @@ article a {
 mark {
     padding: 2px 5px;
     background-color: #f5d34f;
+}
+
+article a {
+    color: #065879;
+    font-weight: bold;
 }
 
 /* footer */
