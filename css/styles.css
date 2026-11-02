@@ -121,6 +121,8 @@ footer {
     background-color: #0abaff;
     color: #191919;
     text-align: center;
+    box-sizing: border-box;
+    margin: 0;
     
 }
 
