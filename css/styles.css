@@ -126,37 +126,3 @@
     
 }
 
-/* keyboard accessibility */
-.a:focus {
-    outline: 3px solid #065879;
-    outline-offset: 3px;
-}
-
-/* small screen layout */
-@media (max-width: 600px) {
-    .header {
-        display: block;
-    }
-
-
-.nav {
-    margin-top: 15px;
-}
-
-.nav a {
-    display: inline-block;
-    margin: 5px 10px 5px 0;
-}
-
-.main {
-    padding: 15px;
-}
-
-.h1 {
-    font-size: 36px;
-}
-
-.h2 {
-    font-size: 25px;
- }
-}
