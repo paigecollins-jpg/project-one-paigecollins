@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #fffdf7;
     color: #191919;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
     line-height:1.6;
 }
 
@@ -20,7 +20,7 @@ header {
     border-bottom: 2px solid #191919;
 }
 
-logo {
+.logo {
     color: #fffdf7;
     font-size: 24px;
     font-weight: bold;
@@ -115,7 +115,7 @@ article {
     border: 3px solid black;
 }
 
-/* footer */
+
 .footer {
     padding: 20px;
     background-color: #0abaff;
