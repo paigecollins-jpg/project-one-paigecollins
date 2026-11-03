@@ -1,5 +1,5 @@
 /* basic page style */
-body {
+.body {
     margin: 0;
     padding: 0;
     background-color: #fffdf7;
@@ -9,7 +9,7 @@ body {
 }
 
 /* header & pg links */
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,39 +27,39 @@ header {
     text-decoration: dotted;
 }
 
-nav a {
+.nav a {
     margin-right: 15px;
     color: #191919;
     font-weight: bold;
     text-decoration: none;
 }
 
-nav a:hover {
+.nav a:hover {
     color: #fffdf7; 
     text-decoration: underline;
 }
 
 /* main content & headings */
-main {
+.main {
     max-width: 950px;
     margin: 0 auto;
     padding: 25px;
 }
 
-h1 {
+.h1 {
     color: #ec0986;
     font-size: 70px;
     line-height: 1;
     text-transform: uppercase;
 }
 
-h2 {
+.h2 {
     color: #065879;
     font-size: 45px;
     line-height: 1.1;
 }
 
-h3 {
+.h3 {
     margin-top: 5px;
     font-size: 22px;
 }
@@ -70,11 +70,11 @@ h3 {
 }
 
 /* sections inspired by paper & zines */
-section {
+.section {
     margin-bottom: 40px;
 }
 
-article {
+.article {
     margin: 20px 0;
     padding: 20px;
     background-color: #fffdf7;
@@ -116,7 +116,7 @@ article {
 }
 
 /* footer */
-footer {
+.footer {
     padding: 20px;
     background-color: #0abaff;
     color: #191919;
@@ -127,36 +127,36 @@ footer {
 }
 
 /* keyboard accessibility */
-a:focus {
+.a:focus {
     outline: 3px solid #065879;
     outline-offset: 3px;
 }
 
 /* small screen layout */
 @media (max-width: 600px) {
-    header {
+    .header {
         display: block;
     }
 
 
-nav {
+.nav {
     margin-top: 15px;
 }
 
-nav a {
+.nav a {
     display: inline-block;
     margin: 5px 10px 5px 0;
 }
 
-main {
+.main {
     padding: 15px;
 }
 
-h1 {
+.h1 {
     font-size: 36px;
 }
 
-h2 {
+.h2 {
     font-size: 25px;
  }
 }
