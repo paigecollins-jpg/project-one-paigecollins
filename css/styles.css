@@ -1,5 +1,5 @@
-/* basic page style */
-.body {
+
+body {
     margin: 0;
     padding: 0;
     background-color: #fffdf7;
@@ -8,8 +8,8 @@
     line-height:1.6;
 }
 
-/* header & pg links */
-.header {
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,68 +20,68 @@
     border-bottom: 2px solid #191919;
 }
 
-.logo {
+logo {
     color: #fffdf7;
     font-size: 24px;
     font-weight: bold;
     text-decoration: dotted;
 }
 
-.nav a {
+nav a {
     margin-right: 15px;
     color: #191919;
     font-weight: bold;
     text-decoration: none;
 }
 
-.nav a:hover {
+nav a:hover {
     color: #fffdf7; 
     text-decoration: underline;
 }
 
-/* main content & headings */
-.main {
+
+main {
     max-width: 950px;
     margin: 0 auto;
     padding: 25px;
 }
 
-.h1 {
+h1 {
     color: #ec0986;
     font-size: 70px;
     line-height: 1;
     text-transform: uppercase;
 }
 
-.h2 {
+h2 {
     color: #065879;
     font-size: 45px;
     line-height: 1.1;
 }
 
-.h3 {
+h3 {
     margin-top: 5px;
     font-size: 22px;
 }
 
-.p {
+p {
     max-width: 700px;
     align-content: center;
 }
 
-/* sections inspired by paper & zines */
-.section {
+
+section {
     margin-bottom: 40px;
 }
 
-.article {
+article {
     margin: 20px 0;
     padding: 20px;
     background-color: #fffdf7;
     border: none;
 }
 
-/* images & collage pieces */
+
 .image-box {
     text-align: center;
     padding: 20px;
